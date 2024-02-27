@@ -1,0 +1,34 @@
+/* 
+    name: Tamim Alhumaydhi
+    id:2037095
+    date:2/25
+*/
+
+/* Styling for contact information section */
+.contact-info {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    width: 80%;
+    max-width: 900px; /* Maximum width */
+    margin-left:  auto; /* Centering the div */
+    margin-right: auto;
+    margin-top: 40px; /* make a gap between the header and the conatct info*/
+    box-shadow: 0 2px 4px rgba(0,0,0,0.9); /* Adding a subtle shadow for depth */
+}
+
+
+
+.contact-info p {
+    line-height: 1.5; /* Spacing between lines */
+    font-size: 24px; /*change the text size*/
+}
+
+.contact-info a {
+    color: #0066cc; /* Styling for links */
+    text-decoration: none; /* Removing underline from links */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}

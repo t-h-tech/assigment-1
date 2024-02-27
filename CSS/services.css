@@ -1,0 +1,24 @@
+/* 
+    name: Tamim Alhumaydhi
+    id:2037095
+    date:2/24
+*/
+
+/* Services styling */
+.service-container {
+    background-color: #fff; /* White background for service sections */
+    margin-left:  auto;
+    margin-right: auto;  /* Centering the container */
+    margin-top: 30px;  /* make a gap between the services*/
+    padding: 20px;
+    border-radius: 10px; /* Soft rounded corners for the containers */
+    width: 80%; /* Adjust width as necessary */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.9); /* Subtle shadow for depth */
+}
+
+
+.service-container p {
+    text-align: center; /* center the paragraph text */
+    font-size: 24px; /* chaneg the text size*/
+    line-height: 1.6; /* Adjusts line height for readability */
+}

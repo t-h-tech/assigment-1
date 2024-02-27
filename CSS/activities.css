@@ -1,0 +1,52 @@
+/* 
+    name: Tamim Alhumaydhi
+    id:2037095
+    date:2/23
+*/
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px;
+
+   
+}
+
+
+.element {
+  margin-left:auto ;  /*to make the element in the center*/
+  margin-right: auto; /*to make the element in the center*/
+    position: relative;
+    width: 80%;
+    border-radius: 50px;
+    max-width: 720px;
+
+  }
+  
+  .image {
+    
+    width: 100%;
+    height: 700px;
+    object-fit: cover; /*to make the image display just the cover area */
+    border-radius: 50px;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 1.6;
+    text-align: center;
+  
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  .element:hover .overlay {
+    opacity: 1;
+  }

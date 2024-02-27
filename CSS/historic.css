@@ -1,0 +1,26 @@
+.historic-site{
+    display: grid;
+    grid-template-columns: 400px 1fr; /* two columns the first with 400px for img and the remaneing for paragraph */
+    gap: 20px;
+
+}
+
+.historic-site img{
+    width: 100%;
+    border-radius: 20px; /*change the corner to be soft */
+
+}
+
+.historic-site p {
+    font-size: large;
+    width: 70%;        /* Adjust the width as needed */
+    margin:  auto;    /* Centers the block element horizontally */
+    text-align: center; /* Centers the text inside the paragraph element */
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+#AlUlaOldTown{
+    background-color:bisque;
+}
