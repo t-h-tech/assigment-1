@@ -28,6 +28,7 @@
     height: 700px;
     object-fit: cover; /*to make the image display just the cover area */
     border-radius: 50px;
+    border: solid;
   }
   
   .overlay {
