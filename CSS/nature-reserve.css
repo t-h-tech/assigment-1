@@ -14,7 +14,10 @@
 }
 
 #nature-reserve{
+    margin-left: auto;
+    margin-right: auto;
     width:100%;
+    max-width:600px;
     height: 900px;
     border-radius:20px;
     background-color:rgb(244, 221, 187)
