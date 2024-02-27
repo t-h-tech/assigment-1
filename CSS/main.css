@@ -50,7 +50,7 @@
     /* Images in the slide */
     .slide img {
     object-fit: cover;
-    width: 50%;
+    width: 60%;
     height: 650px;
     border-radius: 200px;
        
@@ -65,7 +65,7 @@
     .navigation-manual {
       position: absolute;
       width: 100%;
-      top: 740px;
+      top: 800px;
       display: flex;
       justify-content: center;
     }
