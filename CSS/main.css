@@ -65,7 +65,7 @@
     .navigation-manual {
       position: absolute;
       width: 100%;
-      margin-top: 30%;
+      top: 700px;
       display: flex;
       justify-content: center;
     }
